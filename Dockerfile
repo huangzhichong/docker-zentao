@@ -8,8 +8,8 @@ MAINTAINER wanxin <258621580@qq.com>
 
 # download zentao package and unzip
 WORKDIR /opt
-RUN wget http://dl.cnezsoft.com/zentao/9.1.2/ZenTaoPMS.9.1.2.zbox_64.tar.gz && \
-tar -zxvf ZenTaoPMS.9.1.2.zbox_64.tar.gz
+RUN wget http://dl.cnezsoft.com/zentao/9.5.1/ZenTaoPMS.9.5.1.zbox_64.tar.gz && \
+tar -zxvf ZenTaoPMS.9.5.1.zbox_64.tar.gz
 
 #copy script
 COPY script /opt/script
